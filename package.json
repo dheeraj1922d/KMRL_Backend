@@ -1,9 +1,18 @@
 {
-	"dependencies": {
-		"express": "^5.1.0",
-		"mongodb": "^6.20.0",
-		"mongoose": "^8.18.2",
-		"node": "^24.9.0",
-		"nodemon": "^3.1.10"
-	}
+  "name": "document-backend",
+  "version": "1.0.0",
+  "description": "Document management backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
